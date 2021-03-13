@@ -5,7 +5,14 @@ Er ist mit Node.js geschrieben und lädt alle Produkte als JSON-Datei herunter.
 
 Benutzung
 ---------
-Der Crawler kann mit folgendem Befehl gestartet werden:
+Der Crawler braucht eine halbwegs aktuelle [Node.js](https://nodejs.org/en/)-Installation. Anschließend die Dependencies installieren:
+```bash
+yarn install
+# oder
+npm install
+```
+
+Der Crawler kann dann mit folgendem Befehl gestartet werden:
 ```bash
 node ./index.js
 ```
